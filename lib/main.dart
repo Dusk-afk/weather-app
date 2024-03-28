@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:weather_app/blocs/weather/weather_bloc.dart';
@@ -9,6 +10,9 @@ import 'package:weather_app/utils/locator.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarBrightness: Brightness.dark,
+  ));
   runApp(const MainApp());
 }
 
