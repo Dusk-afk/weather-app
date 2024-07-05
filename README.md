@@ -2,6 +2,8 @@
 
 A cross-platform application built in Flutter which tells the user about the weather conditions at their location.
 
+<img src="https://github.com/Dusk-afk/weather-app/assets/83510709/6c286ef4-0c40-472e-bbaf-6475b0f15256" height=700/>
+
 ## Description
 
 - Delivered real-time weather information based on the user's current location by integrating the OpenWeather API.
