@@ -2,6 +2,13 @@
 
 A cross-platform application built in Flutter which tells the user about the weather conditions at their location.
 
+## Description
+
+- Delivered real-time weather information based on the user's current location by integrating the OpenWeather API.
+- Developed the application using Flutter for a responsive and seamless user experience.
+- Incorporated BLoC architecture for efficient state management and clean code structure.
+- Ensured full cross-platform support, compatible with Android, iOS, macOS, Windows, Linux, and web platforms.
+
 ## Architecture: BLoC
 <a href="https://github.com/felangel/bloc"><img src="https://tinyurl.com/bloc-library" alt="Bloc Library"></a>
 
